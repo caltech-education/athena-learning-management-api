@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /v1
+
+spring:
+  data:
+    mongodb:
+      database: caltech_auth_manager_db
+      uri: mongodb+srv://caltech_auth_manager:6R3nykC9BYxWFV4R@cluster0-0nvgt.mongodb.net/test?retryWrites=true&w=majority

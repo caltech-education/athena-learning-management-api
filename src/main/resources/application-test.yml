@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  data:
+    mongodb:
+      database: caltech_learn_manager_db
+      uri: mongodb://localhost:27017
+      username:
+      password:
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8088/v1/test/user-details
+
