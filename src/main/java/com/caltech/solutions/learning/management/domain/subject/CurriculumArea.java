@@ -1,13 +1,13 @@
 package com.caltech.solutions.learning.management.domain.subject;
 
 import caltech.data.mongo.utilities.abstracts.AbstractDomain;
-import com.caltech.solutions.learning.management.enumeration.knowledgeAreaType;
+import com.caltech.solutions.learning.management.enumeration.KnowledgeAreaType;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class CurriculumArea extends AbstractDomain {
     private String componentName;
-    private knowledgeAreaType knowledgeAreaType;
+    private KnowledgeAreaType knowledgeAreaType;
     private String description;
 
     public CurriculumArea() {}
@@ -21,11 +21,11 @@ public class CurriculumArea extends AbstractDomain {
         return this;
     }
 
-    public com.caltech.solutions.learning.management.enumeration.knowledgeAreaType getKnowledgeAreaType() {
+    public KnowledgeAreaType getKnowledgeAreaType() {
         return knowledgeAreaType;
     }
 
-    public CurriculumArea setKnowledgeAreaType(final com.caltech.solutions.learning.management.enumeration.knowledgeAreaType knowledgeAreaType) {
+    public CurriculumArea setKnowledgeAreaType(final KnowledgeAreaType knowledgeAreaType) {
         this.knowledgeAreaType = knowledgeAreaType;
         return this;
     }

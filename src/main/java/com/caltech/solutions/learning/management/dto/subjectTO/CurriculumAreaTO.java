@@ -1,11 +1,11 @@
 package com.caltech.solutions.learning.management.dto.subjectTO;
 
 import caltech.data.mongo.utilities.abstracts.AbstractDataTransferObject;
-import com.caltech.solutions.learning.management.enumeration.knowledgeAreaType;
+import com.caltech.solutions.learning.management.enumeration.KnowledgeAreaType;
 
 public class CurriculumAreaTO extends AbstractDataTransferObject {
     private String componentName;
-    private knowledgeAreaType knowledgeAreaType;
+    private KnowledgeAreaType knowledgeAreaType;
     private String description;
 
     public CurriculumAreaTO() {}
@@ -19,11 +19,11 @@ public class CurriculumAreaTO extends AbstractDataTransferObject {
         return this;
     }
 
-    public com.caltech.solutions.learning.management.enumeration.knowledgeAreaType getKnowledgeAreaType() {
+    public KnowledgeAreaType getKnowledgeAreaType() {
         return knowledgeAreaType;
     }
 
-    public CurriculumAreaTO setKnowledgeAreaType(final com.caltech.solutions.learning.management.enumeration.knowledgeAreaType knowledgeAreaType) {
+    public CurriculumAreaTO setKnowledgeAreaType(final KnowledgeAreaType knowledgeAreaType) {
         this.knowledgeAreaType = knowledgeAreaType;
         return this;
     }
