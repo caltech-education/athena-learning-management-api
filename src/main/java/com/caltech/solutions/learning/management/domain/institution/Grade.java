@@ -15,6 +15,7 @@ public class Grade extends AbstractDomain {
     @DBRef
     private List<SubjectOffer> subjectsOffer;
     private Double scoreNeeded;
+    private Double maxScore;
 
     public Grade() {}
 
@@ -51,6 +52,15 @@ public class Grade extends AbstractDomain {
 
     public Grade setScoreNeeded(final Double scoreNeeded) {
         this.scoreNeeded = scoreNeeded;
+        return this;
+    }
+
+    public Double getMaxScore() {
+        return maxScore;
+    }
+
+    public Grade setMaxScore(Double maxScore) {
+        this.maxScore = maxScore;
         return this;
     }
 }
