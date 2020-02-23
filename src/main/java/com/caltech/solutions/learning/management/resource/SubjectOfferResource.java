@@ -2,8 +2,6 @@ package com.caltech.solutions.learning.management.resource;
 
 import caltech.data.mongo.utilities.abstracts.AbstractResource;
 import com.caltech.solutions.learning.management.dto.institutionTO.SubjectOfferTO;
-import com.caltech.solutions.learning.management.dto.subjectTO.ScoreTO;
-import com.caltech.solutions.learning.management.service.ScoreService;
 import com.caltech.solutions.learning.management.service.SubjectOfferService;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,9 +1,7 @@
 package com.caltech.solutions.learning.management.resource;
 
 import caltech.data.mongo.utilities.abstracts.AbstractResource;
-import com.caltech.solutions.learning.management.dto.flashcardTO.FlashCardTO;
 import com.caltech.solutions.learning.management.dto.institutionTO.GradeTO;
-import com.caltech.solutions.learning.management.service.FlashCardService;
 import com.caltech.solutions.learning.management.service.GradeService;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.CrossOrigin;

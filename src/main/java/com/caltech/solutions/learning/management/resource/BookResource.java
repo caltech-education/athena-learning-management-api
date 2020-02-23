@@ -2,9 +2,7 @@ package com.caltech.solutions.learning.management.resource;
 
 import caltech.data.mongo.utilities.abstracts.AbstractResource;
 import com.caltech.solutions.learning.management.dto.libraryTO.BookTO;
-import com.caltech.solutions.learning.management.dto.subjectTO.CurriculumAreaTO;
 import com.caltech.solutions.learning.management.service.BookService;
-import com.caltech.solutions.learning.management.service.CurriculumAreaService;
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
