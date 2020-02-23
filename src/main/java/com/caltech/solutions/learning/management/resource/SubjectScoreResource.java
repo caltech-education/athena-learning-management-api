@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @CrossOrigin
 @RestController
-@RequestMapping("/subjects-scoreS")
+@RequestMapping("/subjects-scores")
 @Api(value="Subjects Scores Resource", tags="Subjects Scores Resource")
 public class SubjectScoreResource extends AbstractResource<SubjectScoreTO, String> {
     protected SubjectScoreResource(final SubjectScoreService subjectScoreService) {
